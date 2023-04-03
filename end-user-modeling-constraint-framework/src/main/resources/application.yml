@@ -1,0 +1,8 @@
+template-config:
+  placeholder: ???
+
+
+spring:
+  freemarker:
+    suffix: .ftl
+    cache: false

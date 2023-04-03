@@ -1,0 +1,142 @@
+@media (max-width: 1700px) {
+    .instance-elements {
+        display: inline-grid !important;
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin: 40px 100px;
+}
+
+.smaller {
+    color: #0b2a51;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.inner-container {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: start;
+    column-gap: 3em;
+}
+
+.button-details {
+    background-color: #0b2a51;
+    color: white;
+    padding: 0.5em 1em;
+    outline: none;
+    border: 0;
+    border-radius: 20px;
+    margin: 0.2em 0.2em;
+}
+
+.button-details:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.instance-details, .constraint-details {
+    border: 2px solid #0b2a51;
+    background-color: white;
+}
+
+.title-instance-details, .title-constraint-detils{
+    background-color: #0b2a51;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#instance-details-textarea, #constraint-details-textarea {
+    width: -webkit-fill-available;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: none;
+}
+
+.close {
+    padding: 0.2em;
+    color: white;
+    font-size: 1em;
+    margin-right: 1em;
+}
+
+.close:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.display-constraint-window:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#validate-button {
+    border: 2px solid #0b2a51;
+}
+
+#delete-button {
+    color: #bd362f;
+    font-weight: bold;
+    background-color: #f3f3f3;
+    border: 2px solid #bd362f;
+}
+
+.actions {
+    display: flex;
+}
+
+#validation-report table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+#validation-report table th, td {
+    text-align: left;
+    padding: 1em;
+}
+
+#validation-report td {
+    color: #0b2a51;
+}
+
+#validation-report table tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+#validation-report .valid-constraint-validation {
+    background-color: #51a351;
+    font-weight: bold;
+    padding: 1em;
+}
+
+#validation-report .invalid-constraint-validation {
+    background-color: #bd362f;
+    font-weight: bold;
+    padding: 1em;
+}
+
+#validation-report .valid-constraint-validation-result {
+    font-weight: bold;
+    color: #51a351;
+}
+
+#validation-report .invalid-constraint-validation-result {
+    font-weight: bold;
+    color: #bd362f;
+}
+
+#validation-report .hidden-violation-message {
+    display: none;
+}
+
+#validation-report .bold {
+    font-weight: bold;
+}

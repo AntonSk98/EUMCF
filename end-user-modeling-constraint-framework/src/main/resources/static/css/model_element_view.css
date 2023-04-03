@@ -1,0 +1,238 @@
+@media (max-width: 1600px) {
+    .editor {
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 1350px) {
+    .editor {
+        max-width: 450px;
+    }
+
+    .styled-table tr td input {
+        max-width: 100px;
+    }
+}
+
+@media (max-width: 1350px) {
+    .editor {
+        max-width: 450px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .editor {
+        max-width: 350px;
+    }
+}
+
+.subtitle {
+    margin-top: 2em;
+}
+
+.container {
+    padding: 2em;
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-submit-button {
+    padding: 0.6em 3em;
+}
+
+.styled-table {
+    max-width: 600px;
+}
+
+.target-type-button {
+    max-width: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: none;
+    font-size: 1em;
+    text-decoration: dotted;
+    color: #0b2a51;
+    border: 0 #0b2a51;
+    border-bottom: 2px dashed;
+    font-weight: bold;
+    outline: none;
+}
+
+.target-type-button-hover:hover {
+    cursor: pointer;
+    color: #016ABC;
+    border-color: #016ABC;
+}
+
+.target-type-button-no-decoration {
+    border: 0;
+    cursor: default;
+    color: black;
+}
+
+.reset {
+    margin-top: 1em;
+}
+
+hr {
+    margin: 1em 0;
+    border: none;
+    height: 2px;
+    /* Set the hr color */
+    color: #0b2a51; /* old IE */
+    background-color: #0b2a51; /* Modern Browsers */
+}
+
+.functions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: start;
+}
+
+.constraint-function {
+    padding: 0.3em 1em;
+    background-color: #0b2a51;
+    color: white;
+    border-radius: 20px;
+    border: 2px solid #0b2a51;
+    font-size: 0.7em;
+}
+
+.constraint-function:hover {
+    background: #ffffff;
+    color: #0b2a51;
+    cursor: pointer;
+}
+
+.constraint-block-title {
+    color: #0b2a51;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.editor {
+    width: 600px;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons {
+    margin: 0.5em 1em 1em 1em;
+    display: flex;
+    justify-content: start;
+}
+
+.buttons input:first-of-type {
+    margin-right: 1em;
+}
+
+.constrain_space {
+    height: 100%;
+}
+
+.constraint-title {
+    color: #0b2a51;
+    margin-bottom: 1em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.copy-button, .update-button {
+    color: white;
+    background-color: #0b2a51;
+    padding: 0.5em 1em;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+}
+
+.copy-button:hover, .update-button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.test {
+    background-color: red;
+}
+
+.attribute-path {
+    display: flex;
+    column-gap: 0.2em;
+}
+
+.disabled-button {
+    color: white;
+    background-color: #0b2a51;
+    padding: 0.5em 1em;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.functions-header {
+    display: flex;
+    justify-content: start;
+    gap: 0.5em;
+    margin-bottom: 1em;
+}
+
+.runtime-function {
+    position: absolute;
+    top: 50%;  /* position the top  edge of the element at the middle of the parent */
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+    transform: translate(-50%, -50%);
+    width: 25em;
+    display: none;
+    border: 2px solid #0b2a51;
+    background-color: white;
+}
+
+.runtime-function-header {
+    background-color: #0b2a51;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#runtime-function-textarea {
+    width: -webkit-fill-available;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: none;
+}
+
+.button-runtime-function {
+    border: 2px solid #0b2a51;
+    background-color: #0b2a51;
+    color: white;
+    padding: 0.5em 1em;
+    outline: none;
+    border-radius: 20px;
+    margin: 0.2em 0.2em;
+}
+
+.button-runtime-function:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.close {
+    padding: 0.2em;
+    color: white;
+    font-size: 1em;
+    margin-right: 1em;
+}
+
+.close:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
