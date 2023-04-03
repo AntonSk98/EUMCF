@@ -55,6 +55,6 @@ The application can be accessed under the following URI: localhost:8080
 * shacl -> profile that injects gremlin-related services in the configuration
 * server.port=8081 -> the port number on which the embedded web server will listen for incoming requests
 
-The showcase application can be accessed under the following URI: *localhost:8080*
+The showcase application can be accessed under the following URI: *localhost:<server.port>*
 
 
