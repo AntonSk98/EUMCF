@@ -1,0 +1,13 @@
+{
+  "uuid": "67b513b7-99bb-4705-9fe0-34c069017993",
+  "name": "RUNTIME_CONSTRAINT",
+  "modelElementUuid": "#",
+  "modelElementType": "SoftwareEngineer",
+  "violationMessage": "Provide a meaningful message that will be delivered in case of constraint violation",
+  "violationLevel": "ERROR",
+  "constraintFunction": {
+    "@type": "RUNTIME_FUNCTION",
+    "name": "Maximum age of employee",
+    "runtimeFunction": "@prefix eumcf: <http://eumcf/shacl/>. @prefix instanceShape: <http://eumcf/shacl/shape/>. @prefix sh: <http://www.w3.org/ns/shacl#>. instanceShape:### a sh:NodeShape; sh:property [ sh:minLength  \"1\"^^<http://www.w3.org/2001/XMLSchema#int>; sh:path eumcf:name]; sh:targetNode  eumcf:### ."
+  }
+}
