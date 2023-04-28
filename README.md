@@ -23,9 +23,6 @@ A demo video can be found here --> [click me](https://cloudstore.zih.tu-dresden.
 ### Complex constraint definition
 ![Complex constraint definition](assets/complex_constraint.gif)
 
-### All in one
-![All in one demo](assets/all_in_one.gif)
-
 ## Modules description
 
 The architecture of the framework consists of several modules. Below is a short description for each of them.
