@@ -40,11 +40,11 @@ The architecture of the framework consists of several modules. Below is a short 
 3. Installed Git
 
 ### Setting up the environment
-1. **Clone repo:** `git clone https://github.com/AntonSk98/master-thesis-user-driven-constraint-modelling-for-entity-models-at-runtime.git`
+1. **Clone repo:** `git clone https://github.com/AntonSk98/EUMCF.git`
 2. **Set envronment variable *MODICIO_JAR_PATH*** which is an abosolute path to modicio jar that is located in the cloned repository. Please note, that modicio is an ongoing project that is currently under an active development. Therefore, there is no guarantee that the showcase framework will be running with other versions of modicio. **Therefore, do one of the following:**
-    * **for windows** -> `set MODICIO_JAR_PATH=$PATH_TO_REPO/master-thesis-user-driven-constraint-modelling-for-entity-models-at-runtime/modicio_2.13.jar`;
-    * **for linux** -> `export MODICIO_JAR_PATH=$PATH_TO_REPO/master-thesis-user-driven-constraint-modelling-for-entity-models-at-runtime/modicio_2.13.jar`
-3. **Go into the cloned repository:** `cd $PATH_TO_REPO/master-thesis-user-driven-constraint-modelling-for-entity-models-at-runtime`
+    * **for windows** -> `set MODICIO_JAR_PATH=$PATH_TO_REPO/EUMCF/modicio_2.13.jar`;
+    * **for linux** -> `export MODICIO_JAR_PATH=$PATH_TO_REPO/EUMCF/modicio_2.13.jar`
+3. **Go into the cloned repository:** `cd $PATH_TO_REPO/EUMCF`
 4. **Compile the specification module:** `mvn -f end-user-modeling-constraint-framework-spec/pom.xml clean install`
 5. **Compile the platform-specific implemenentation with Gremlin:** `mvn -f end-user-modeling-constraint-framework-gremlin/pom.xml clean install`
 6. **Compile the platform-specific implementation with SHACL:** `mvn -f end-user-modeling-constraint-framework-shacl/pom.xml clean install`
